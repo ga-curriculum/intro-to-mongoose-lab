@@ -2,42 +2,24 @@
 
 ## About
 
-tktk Write a short but descriptive summary of the content in this module. Introduce the lab. What will the students build in this lab?
+This is lab practices using `mongoose` commands to perform CRUD operations on a single model, with input coming from the terminal
 
 ## Prerequisites
 
-- tktk
+- Intro to Mongoose
 
 ## Time to complete
 
-Estimated time to complete core lab exercise: **tktk min**
-
-## Starter code
-
-tktk If there is not a starter code repo that students will fork and clone to start this lab, then this section and all of its content should be removed.
-
-🟢 [Starter code](#tktk-repository-for-starter-code)
+Estimated time to complete core lab exercise: **120 min**
 
 ## Content
 
 - [Setup](./setup/README.md)
 - [Exercise](./exercise/README.md)
 
-## Level Up
-
-🚀 [Level Up](./level-up/README.md) tktk - remove section if no level ups 
-
 ## Solution code
 
-🏁 [tktk Solution code](#tktk-external-repo-link-url)
-
-## Deployed sites
-
-tktk If there is not a deployed site related to this module this section and all of its content should be removed.
-
-🌐 [Live site](#tktk-deployed-app-url)
-
-🐙 [Repository](#tktk-repository-for-deployed-app)
+🏁 [Solution code](https://git.generalassemb.ly/modular-curriculum-all-courses/mongoose-lab-solution)
 
 ## Internal resources
 
