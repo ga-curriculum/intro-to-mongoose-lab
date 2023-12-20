@@ -1,4 +1,4 @@
-# ![Intro to Express Lab - Setup](./assets/hero.png
+# ![Intro to Mongoose Lab - Setup](./assets/hero.png
 
 ## Initialization 
 
@@ -33,7 +33,7 @@ Prompt-sync is a package that allows us to easily get input from the user in the
 npm i prompt-sync
 ```
 
-Copy the following code and paste it into your `app.js` to get `prompt-sync` working:
+Copy the following code and paste it into your `app.js` to get an example of `prompt-sync` working:
 
 ```js
 const prompt = require('prompt-sync')();
