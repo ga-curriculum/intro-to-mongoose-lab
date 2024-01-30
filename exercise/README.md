@@ -1,4 +1,4 @@
-# ![Mongoose Lab - Exercise](./assets/hero.png)
+# ![Intro to Mongoose Lab - Exercise](./assets/hero.png)
 
 # Terminal CRM
 
