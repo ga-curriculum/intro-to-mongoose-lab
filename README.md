@@ -1,4 +1,4 @@
-# ![[Mongoose Lab]](./assets/tktk-hero.png)
+# ![Intro to Mongoose Lab](./assets/hero.png)
 
 ## About
 

@@ -1,4 +1,4 @@
-# ![Intro to Mongoose Lab - Setup](./assets/hero.png
+# ![Intro to Mongoose Lab - Setup](./assets/hero.png)
 
 ## Initialization 
 
