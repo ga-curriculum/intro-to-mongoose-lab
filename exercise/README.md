@@ -67,7 +67,7 @@ Initialize Mongoose and MongoDB Connection:
 
 Start your application by running the following command in the terminal:
 
-```text
+```plaintext
 node app.js
 ```
 
