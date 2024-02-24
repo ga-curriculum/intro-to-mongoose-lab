@@ -2,7 +2,7 @@
 
 ## About
 
-This is lab practices using `mongoose` commands to perform CRUD operations on a single model, with input coming from the terminal
+In this lab, you will create a terminal-based Customer Relationship Management (CRM) application using Mongoose. This application will manage customer data with full Create, Read, Update, and Delete (CRUD) functionality.
 
 ## Time to complete
 
