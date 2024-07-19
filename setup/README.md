@@ -13,10 +13,10 @@ Make a new repository on [GitHub](https://github.com/) named `intro-to-mongoose-
 Clone a copy of your remote repo locally by using the `git clone` command:
 
 ```bash
-git clone https://github.com/<your-username>/intro-to-mongoose-lab.git
+git clone https://github.com/<github-username>/intro-to-mongoose-lab.git
 ```
 
-> 🚨 Do not copy the above command. It will not work. Your GitHub username will replace <github-username> (including the < and >) in the URL above.
+> 🚨 Do not copy the above command. It will not work. Your GitHub username will replace `<github-username>` (including the `<` and `>`) in the URL above.
 
 Next, `cd` into your new cloned directory, `intro-to-mongoose-lab`:
 
@@ -24,10 +24,10 @@ Next, `cd` into your new cloned directory, `intro-to-mongoose-lab`:
 cd intro-to-mongoose-lab
 ```
 
-In this directory create a `server.js` file:
+In this directory create a `app.js` file:
 
 ```bash
-touch server.js
+touch app.js
 ```
 
 Create a node project along with its `package.json` file by using this command:
