@@ -2,12 +2,11 @@
 
 ## Terminal CRM
 
-
 ### Objective
 
 A **Customer Relationship Management** (CRM) tool is an application that allows a company to keep track of their customers. In this lab. you're going to create a terminal-based CRM application that will have full CRUD functionality on a single model: Customer.
 
-## Dependencies 
+## Dependencies
 
 ### Install `prompt-sync`
 
@@ -34,54 +33,45 @@ You will also need the following packages to complete this lab:
 - mongoose
 - dotenv
 
-
 ## Define the model
 
-1. Create a new model file and build the customer schema. 
+1. Create a new model file and build the customer schema.
 
 2. The customer model will have the following fields:
 
    - name: String
    - age: Number
 
-
-## Make the DB connection 
+## Make the database connection
 
 Initialize Mongoose and MongoDB Connection:
 
 1. Set up Mongoose in your application.
 2. Ensure you have a `.env` file for your MongoDB URI and a `.gitignore` file to avoid pushing sensitive data to GitHub.
 
-
-## Developing the User Interface
+## Developing the user interface
 
 - Start by displaying a welcome message to the user
-
 - Implement a simple menu system that lets the user choose an action (Create, View, Update, Delete, Quit). Use prompt-sync to get the user's choice and handle it accordingly.
-
 - When figuring out what the user wants to do, it's probably easiest to prompt them to choose from various options in a numbered list.  This way, the user just enters a number and the application knows what to do next.
-
 - When dealing with choosing a specific customer to update or delete, it's probably easiest to list the customers in the database along with their ids.  Then prompt the user to enter id of the user that needs to be updated/deleted.
 
 ## Starting the application
 
 Start your application by running the following command in the terminal:
 
-```plaintext
-node app.js
+```bash
+node .js
 ```
 
 **NOTE**:
 The prompt-sync package, used for user input in the terminal, may not work well with nodemon. To test changes, stop the app using `Ctrl+C` and restart it with `node app.js`.
 
+## Sample exchange
 
-## Sample Exchange
+Use the following example as a guide when designing your application:
 
-
-Use the following example as a guide when designing your application: 
-
-
-**Starting the Application:**
+### Starting the application
 
 ```bash
 Welcome to the CRM
@@ -98,7 +88,7 @@ Number of action to run:
 # user inputs 3
 ```
 
-**Updating a Customer:**
+### Updating a customer
 
 ```bash
 Below is a list of customers: 
@@ -115,7 +105,7 @@ What is the customers new age?
 # user inputs 50
 ```
 
-**Choosing Next Action:**
+### Choosing next action
 
 ```bash
 What would you like to do?
@@ -130,13 +120,15 @@ Number of action to run:
 # user inputs 2
 ```
 
-**Viewing Updated Customers:**
+### Viewing updated customers
+
 ```bash
 id: 658226acdcbecfe9b99d5421 --  Name: Bilbo, Age: 50
 id: 65825d1ead6cd90c5c430e24 --  Name: Vivienne, Age: 6
 ```
 
-**Choosing Next Action:**
+### Choosing next action
+
 ```bash
 What would you like to do?
 
@@ -151,10 +143,10 @@ Number of action to run:
 ```
 
 Exiting the Application
+
 ```bash
 exiting...
 ```
-
 
 ## Exiting the application
 
