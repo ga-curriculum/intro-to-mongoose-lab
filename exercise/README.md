@@ -1,4 +1,7 @@
-# ![Intro to Mongoose Lab - Exercise](./assets/hero.png)
+<h1>
+  <span class="headline">Intro to Mongoose Lab</span>
+  <span class="subhead">Exercise</span>
+</h1>
 
 ## Terminal CRM
 
